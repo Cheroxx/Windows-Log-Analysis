@@ -5,7 +5,7 @@
 Windows log event codes and sysmon codes to monitor for early detection of anomalous and suspicious behavior warranting further investigation (includes
 all pertinent Windows log types)
 
-Some of these event codes may be noisy, so be sure to filter normal events in your SIEM environment to narrow search for outliers
+Some of these event codes are noisy, so be sure to filter normal events in your SIEM environment to narrow search for outliers
 
 #### Event codes 0-999
 ``` 
