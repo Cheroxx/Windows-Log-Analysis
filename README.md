@@ -25,7 +25,7 @@ Some of these event codes may be noisy, so be sure to filter normal events in yo
 528   Account log in (Account crawling)
 540   Account log in (Account crawling)
 567   Operation performed on object  (files or registry keys added)
-592   New Process created (malicious process, malware initiation)
+592   New Process created (potential malicious process, malware initiation)
 600   Powershell logs (PS4)
 601   New service install
 800   Powershell logs (PS4)
@@ -110,6 +110,12 @@ Some of these event codes may be noisy, so be sure to filter normal events in yo
 ```
 8004  Filename not allowed to run
 8000-8027 Applocker events
+```
+
+#### Event codes 9000+
+```
+11707  Software installation successful (addition of unauthorized apps/programs)
+11724  Software package removed (removal of required apps/programs)
 ```
 
 #### Event codes used in ransomware/malware attacks
