@@ -77,6 +77,7 @@ Some of these event codes are noisy, so be sure to filter normal events in your 
 4719  System audit policy was changed (non SYSTEM changes to audit policy)
 4720  User acct created  (password attacks)
 4724  Reset password attempt  (password attacks)
+4732  Account added to local admin group (Persistence, defense evasion)
 4735  Local group changed  (password attacks)
 4738  User account password changed  (password attacks)
 4769  Kerberos ticket request, failed attempts  (Kerberos spraying, Kerberoasting)
